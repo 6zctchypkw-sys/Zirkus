@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tickets – ZIRKUS! Eintritt und Anfrage</title>
+<meta name="description" content="Ticketübersicht für den ZIRKUS!-Vormittag für Seniorinnen und Senioren am 12. Juni 2027.">
+<meta name="theme-color" content="#111111">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+<header class="site-header">
+<a class="brand" href="index.html" aria-label="ZIRKUS! – zur Startseite des Vormittagsprogramms"><img src="assets/img/logo-neu.png" width="180" height="102" alt="Zirkus – Vormittagsprogramm"></a>
+<nav aria-label="Hauptnavigation">
+<a href="programm.html">Vormittagsprogramm</a>
+<a href="story.html">Geschichte</a>
+<a href="tickets.html" aria-current="page">Tickets</a>
+<a href="infos.html">Infos</a>
+<a class="nav-evening" href="https://www.zirkus-beispiel.de" target="_blank" rel="noopener">Reguläres Abendprogramm ↗</a>
+</nav>
+</header>
+<main id="inhalt">
+<section class="page-hero"><p class="eyebrow">IHR PLATZ IN DER MANEGE</p><h1>GROSSE SHOW.<br><span>FAIRE PREISE.</span></h1><p class="lead">Liebe Seniorinnen und Senioren, wählen Sie Ihre Eintrittskarte. Enkelkinder und Begleitpersonen sind herzlich willkommen.</p></section>
+<section class="section-pad ticket-layout"><div><p class="eyebrow">TICKETÜBERSICHT</p><h2>Ihre Eintrittskarte für den Vormittag.</h2><div class="price-list"><article><div><h3>Senior:innen-Ticket</h3><p>Unser Hauptticket – für Rentnerinnen und Rentner, die den Vormittag genießen möchten.</p></div><strong>18 €</strong></article><article><div><h3>Familienkarte</h3><p>Für einen gemeinsamen Besuch mit Enkelkindern und Familie (zwei Erwachsene und bis zu zwei Kinder).</p></div><strong>58 €</strong></article><article><div><h3>Begleitperson</h3><p>Für eine Person, die Sie begleitet und unterstützt.</p></div><strong>12 €</strong></article><article><div><h3>Reguläres Ticket</h3><p>Für weitere erwachsene Gäste, die den Vormittag mit Ihnen erleben möchten.</p></div><strong>24 €</strong></article></div><p class="small-note">Alle Preise sind fiktive Beispielpreise für das Studienprojekt. Es findet kein echter Verkauf statt.</p><img class="ticket-art" src="assets/img/senioren-tickets.png" width="1774" height="887" loading="lazy" alt="Zwei ermäßigte Zirkus-Eintrittskarten für Seniorinnen und Senioren"></div>
+<div class="form-panel"><p class="eyebrow">UNVERBINDLICHE ANFRAGE</p><h2>Vormittagsplatz vormerken.</h2><p>Das Formular zeigt beispielhaft, welche Angaben für eine Anfrage benötigt werden. Da ZIRKUS! ein Schulprojekt ist, werden keine Daten versendet oder gespeichert.</p>
+<form id="ticket-form">
+<div class="field"><label for="name">Vor- und Nachname *</label><input id="name" name="name" autocomplete="name" required></div>
+<div class="field"><label for="email">E-Mail-Adresse *</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+<div class="field"><label for="ticket">Ticketart *</label><select id="ticket" name="ticket" required><option value="">Bitte auswählen</option><option>Senior:innen-Ticket – 18 €</option><option>Familienkarte – 58 €</option><option>Begleitperson – 12 €</option><option>Reguläres Ticket – 24 €</option></select></div>
+<div class="field"><label for="quantity">Anzahl der Tickets *</label><input id="quantity" name="quantity" type="number" min="1" max="10" value="1" required></div>
+<div class="field"><label for="message">Hinweise oder Unterstützungsbedarf</label><textarea id="message" name="message" rows="4"></textarea></div>
+<label class="check-field"><input type="checkbox" required> Ich habe verstanden, dass dies ein Studienprojekt ohne echte Buchung ist. *</label>
+<button class="button button-red" type="submit">Anfrage vormerken</button>
+<p id="form-message" class="form-message" role="status" aria-live="polite"></p>
+</form></div></section>
+<section class="section-pad"><h2>Fragen vor dem Klick?</h2><p>Informationen zu Anreise, Zugänglichkeit und häufigen Fragen finden Sie auf unserer Infoseite. Wenn Sie gemeinsam mit mehreren Personen kommen, planen Sie Ihre Plätze am besten zusammen.</p><a class="button" href="infos.html#faq">Zu den Besucherinfos</a></section>
+<script src="js/main.js" defer></script>
+</main>
+<footer class="site-footer">
+<div><strong>ZIRKUS!</strong><p>Die Vormittagsvorstellungen für Seniorinnen und Senioren – mit Platz für Enkelkinder und Begleitpersonen.</p></div>
+<div><a href="infos.html#impressum">Impressum</a><span> · </span><a href="infos.html#bildnachweis">Bildnachweis</a></div>
+<p class="footer-note">Ein erfundenes Kulturprojekt · Hamburg 2027</p>
+</footer>
+</body>
+</html>
